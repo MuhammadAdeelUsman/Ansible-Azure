@@ -8,21 +8,26 @@ In order to install Anisble on your mac its always good to create virtual enviro
 python3 --version
 ```
 ### Create directory for Ansible projects
+```
 mkdir ansible-projects
 cd ansible-projects
-
+```
 ### Create and activate virtual environment
+```
 python3 -m venv .venv
 source .venv/bin/activate
 
  cd .venv/
   mkdir .azure
   vi .azure/credentials
+```
+
 [default]
 subscription_id=<your-subscription_id>
 client_id=<security-principal-appid>
 secret=<security-principal-password>
 tenant=<security-principal-tenant>
+```
 [Galaxy Ansible](https://galaxy.ansible.com/azure/azcollection?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
 
 To install Azure dependencies:
