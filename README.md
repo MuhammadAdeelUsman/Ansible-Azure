@@ -1,19 +1,17 @@
 # Ansible-Azure
 
-# Install Anisble on Mac book 
+### Install Anisble on Mac book 
 
 In order to install Anisble on your mac its always good to create virtual enviroment. 
 
-# For these examples to work, ensure that:
-# - you are running Linux or macOS
-# - Python 3.6 or 3.7 (NOT 3.8) has been installed
+```
 python3 --version
-
-# Create directory for Meltano projects
+```
+### Create directory for Ansible projects
 mkdir ansible-projects
 cd ansible-projects
 
-# Create and activate virtual environment
+### Create and activate virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
 
@@ -25,8 +23,7 @@ subscription_id=<your-subscription_id>
 client_id=<security-principal-appid>
 secret=<security-principal-password>
 tenant=<security-principal-tenant>
-
-https://galaxy.ansible.com/azure/azcollection?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW
+[Galaxy Ansible](https://galaxy.ansible.com/azure/azcollection?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
 
 To install Azure dependencies:
 ```
