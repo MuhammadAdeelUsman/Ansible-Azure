@@ -21,7 +21,7 @@ source .venv/bin/activate
   mkdir .azure
   vi .azure/credentials
 ```
-
+```
 [default]
 subscription_id=<your-subscription_id>
 client_id=<security-principal-appid>
